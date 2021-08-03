@@ -6,4 +6,4 @@ COPY . .
 
 USER root
 
-RUN npm install -g
+RUN npm install -g react react-dom next

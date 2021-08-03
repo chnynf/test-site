@@ -1,2 +1,6 @@
 image:
   file: Dockerfile
+ 
+gitConfig:
+  user.email: chnynf@users.noreply.gmail.com
+ 

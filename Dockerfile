@@ -5,4 +5,4 @@ WORKDIR /workspace/test-site
 COPY ./ ./
 
 RUN npm install
-RUN git config --system user.email chnynf@users.noreply.github.com
+RUN git config --add --system user.email chnynf@users.noreply.github.com

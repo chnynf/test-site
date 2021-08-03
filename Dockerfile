@@ -1,7 +1,7 @@
 FROM node:16
 
-WORKDIR /nextjs-blog/
-COPY . .
+WORKDIR /usr/nextjs-blog/
+COPY ./ ./
 
 RUN npm install
 RUN git config --system user.email chnynf@users.noreply.github.com

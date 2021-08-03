@@ -4,6 +4,7 @@ WORKDIR /workspace/test-site
 
 COPY . .
 
-RUN cat package.json
+USER root
+
 RUN npm install
 RUN git config --add --system user.email chnynf@users.noreply.github.com

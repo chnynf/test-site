@@ -6,5 +6,4 @@ COPY . .
 
 USER root
 
-RUN npm install
-RUN git config --add --system user.email chnynf@users.noreply.github.com
+RUN npm install -g

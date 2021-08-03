@@ -4,6 +4,6 @@ WORKDIR /workspace/test-site
 
 COPY . .
 
-USER gitpod
+RUN cat package.json
 RUN npm install
 RUN git config --add --system user.email chnynf@users.noreply.github.com

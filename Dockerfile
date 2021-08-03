@@ -1,3 +1,4 @@
 FROM node:16
 
-RUN git config --global user.email chnynf@users.noreply.github.com
+RUN npm install
+RUN git config --system user.email chnynf@users.noreply.github.com

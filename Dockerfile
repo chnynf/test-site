@@ -1,4 +1,8 @@
 FROM node:16
 
-# RUN npm install
+WORKDIR /workspace/test-site
+
+COPY ./ ./
+
+RUN npm install
 RUN git config --system user.email chnynf@users.noreply.github.com
